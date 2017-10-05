@@ -8,6 +8,7 @@
   "style": "dist/react-select.min.css",
   "author": "Jed Watson",
   "license": "MIT",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/JedWatson/react-select.git"

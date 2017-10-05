@@ -36,6 +36,13 @@ export default [
 		plugins: [babel(babelOptions(false))],
 	},
 	{
+		input: 'src/index.d.ts',
+		output: {
+			name: name,
+			file: path + '.d.ts',
+		}
+	},
+	{
 		input: 'src/index.umd.js',
 		output: {
 			name: name,
